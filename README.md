@@ -40,7 +40,7 @@ A sovereign single-HTML financial-adviser tool calibrated to the **UK 2025-26 ta
 | ☷ | **Pension** | state forecast · workplace + SIPP projection (3 growth scenarios) · annuity / drawdown income |
 | ▦ | **Portfolio** | holdings table · asset allocation · tax-wrapper split · concentration warnings · rebalance suggestion |
 | ? | **Q & A** | ask any UK-finance question · T0 deterministic for 4+ common topics · T3 (BYOK) for nuance |
-| ↓ | **Reports** | annual tax summary (.md or PDF via FallPDF) · holdings CSV · full state JSON · Mansoor P3 audit chain |
+| ↓ | **Reports** | annual tax summary (.md or PDF via FallPDF) · holdings CSV · full state JSON · P3 audit chain |
 
 ## The recommender
 
@@ -102,7 +102,7 @@ The full `postMessage` API:
 
 Plus it listens on `BroadcastChannel('fall-signal')` for si-didy `query` intents and responds with `answer` events.
 
-## Mansoor's 6 · client-data hardening
+## 's 6 · client-data hardening
 
 | | check | how |
 |---|---|---|
@@ -136,10 +136,10 @@ That said, for the day-to-day work of *"am I using my allowances · is my portfo
 ## For developers
 
 ```
-index.html      one file · ~62KB · vanilla JS · no deps
-README.md       this
-LICENSE         MIT
-.nojekyll       Pages legacy deploy
+index.html one file · ~62KB · vanilla JS · no deps
+README.md this
+LICENSE MIT
+.nojekyll Pages legacy deploy
 ```
 
 ### Updating tax constants
