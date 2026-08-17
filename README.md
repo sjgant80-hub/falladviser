@@ -11,15 +11,15 @@
 
 ## What it is
 
-A sovereign single-HTML financial-adviser tool calibrated to the **UK 2025-26 tax year**. Replaces the part of an IFA that's just calculations and rule-of-thumb recommendations — at TBA vs TBA-3,000 typical IFA fees.
+A sovereign single-HTML financial-adviser tool calibrated to the **UK 2025-26 tax year**. Replaces the part of an IFA that's just calculations and rule-of-thumb recommendations — at £0/year vs £1,500-3,000 typical IFA fees.
 
 **Knows:**
 - UK 2025-26 income tax bands (incl. 60% PA-taper trap)
 - National insurance (employed Class 1)
-- Dividend tax + TBA allowance
-- CGT 18%/24% + TBA allowance
-- ISA TBA + LISA TBA sub-allowance
-- Pension annual allowance TBA (incl. tapering above TBAk adjusted)
+- Dividend tax + £500 allowance
+- CGT 18%/24% + £3,000 allowance
+- ISA £20,000 + LISA £4,000 sub-allowance
+- Pension annual allowance £60,000 (incl. tapering above £260k adjusted)
 - State pension qualifying years
 - Asset allocation by risk profile (cautious / balanced / adventurous / aggressive)
 
@@ -129,7 +129,7 @@ All 14 honored. 14-point gate · single HTML · vanilla JS · no deps · file://
 
 This is **informational**, calibrated to UK 2025-26 rules. Not a substitute for an FCA-authorised adviser when binding decisions are on the table. Tax law is fiendishly detailed and the rules change every Budget — verify everything with HMRC or a regulated professional before acting.
 
-That said, for the day-to-day work of *"am I using my allowances · is my portfolio aligned · what's my marginal rate · should I prioritise X or Y this year"*, this replicates ~80% of what a TBA-300/hour IFA conversation delivers, except you can re-run it at midnight with updated numbers.
+That said, for the day-to-day work of *"am I using my allowances · is my portfolio aligned · what's my marginal rate · should I prioritise X or Y this year"*, this replicates ~80% of what a £150-300/hour IFA conversation delivers, except you can re-run it at midnight with updated numbers.
 
 ---
 
